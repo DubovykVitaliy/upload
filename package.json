@@ -2,9 +2,10 @@
   "name": "upload",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "serve": "parcel index.html"
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
